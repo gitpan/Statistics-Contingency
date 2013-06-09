@@ -1,7 +1,9 @@
-package Statistics::Contingency;
-$VERSION = '0.08';
-
 use strict;
+
+package Statistics::Contingency;
+{
+  $Statistics::Contingency::VERSION = '0.09';
+}
 
 #              Correct=Y   Correct=N
 #            +-----------+-----------+
@@ -198,6 +200,10 @@ __END__
 =head1 NAME
 
 Statistics::Contingency - Calculate precision, recall, F1, accuracy, etc.
+
+=head1 VERSION
+
+version 0.09
 
 =head1 SYNOPSIS
 
